@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OpenGL Particle Simulation Engine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <header>
+    <h1>Particle Engine</h1>
+    <p>GPU-accelerated particle simulation system using modern OpenGL</p>
+    <a href="https://github.com/oasdflkjo/engine" class="github-button" id="cta-button">View on GitHub</a>
+  </header>
+
+  <section id="hero-video">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/ePBFPLigK5E" 
+              frameborder="0" 
+              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+      </iframe>
+    </div>
+  </section>
+
+  <section id="tech-stack">
+    <h2>Core Features:</h2>
+    <div class="tech-list">
+      <ul>
+        <li>Initialization ptimizations using <span class="highlight-tech">SIMD</span></li>
+        <li>Modern OpenGL Pipeline with <span class="highlight-tech">GLFW</span> & <span class="highlight-tech">GLAD</span></li>
+        <li>Optimized Math Operations with <span class="highlight-tech">cglm</span></li>
+        <li>Interactive Interface using <span class="highlight-tech">imgui</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
